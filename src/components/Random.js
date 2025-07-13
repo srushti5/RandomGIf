@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import axios from 'axios';
-import { useEffect } from 'react';
+//import React, { useState } from 'react'
+//import axios from 'axios';
+//import { useEffect } from 'react';
 import Spinner from './Spinner';
 import useGif from '../hooks/useGif';
 
@@ -20,7 +20,7 @@ const Random = () => {
       <h1 className='mt-[15px] text-2xl underline uppercase font-bold'> A Random Gif</h1>
 
     {
-        loading ? (<Spinner/>) : (<img src= {gif} width="450" />)
+        loading ? (<Spinner/>) : (<img src= {gif} width="450" alt="Random Gif"/>)
     }
 
       
